@@ -1,0 +1,153 @@
+.hero-section {
+  margin-top: 10px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;;
+  width: auto;
+}
+
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:390px;
+  object-fit: cover;
+  z-index: 0;
+}
+/* Body container */
+.body-container {
+  margin: 20px; /* Add some margin */
+  width: auto;
+  height: auto;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 40px; /* Add margin between sections */
+  width: auto;
+  height: auto;
+}
+.upcoming-events{
+  margin-top: 10%;
+  height: auto;
+}
+/* Heading styles */
+.body-container h2 {
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 90px;
+  align-content: center;
+  background-color: bisque;
+  align-self: center;
+  text-align: center;
+  border: 1px solid #c5b206;
+
+height: 50px;
+}
+
+/* Game and Event card container */
+.game-cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px; /* Adjust gap as needed */
+}
+.event-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* Game and Event card styles */
+
+.event-card {
+  width: calc(27.33% - 10px); /* Set width for each card */
+  margin-bottom: 20px; /* Add margin between cards */
+  background-color: #f9ffff;
+  border: 1px solid #c5b206;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(194, 159, 2, 0.1);
+  overflow: hidden; /* Hide overflow */
+}
+.game-card{
+
+  transform: rotate(-45deg);
+  text-align: center;
+  margin-right: 30px;
+  margin-left:80px;
+  width: 200px;
+  color: rgb(107, 22, 22); /* Change this to your desired text color */
+  background-color: #f9ffff;
+  border: 1px solid #c5b206;
+}
+
+.game-card h3,
+.event-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+/* Game and Event card description styles */
+.game-card p,
+.event-card p {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+/* Hover animation for Game and Event cards */
+.game-card:hover,
+.event-card:hover {
+  border-color: #157579;
+    transform: translateY(-5px); /* Move card up on hover */
+    box-shadow: 0 2px 4px #157579; /* Add shadow on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Change border color on hover */
+}
+
+
+
+.game-card img {
+  width: 100px; /* Set the width of the images */
+  height: 160px; /* Set the height of the images */
+  object-fit: cover; /* Ensure the images cover the defined area without distortion */
+  border-radius: 8px; /* Optional: add rounded corners to the images */
+  border-bottom: 1px solid #c5b206;
+  margin-top: 30px;
+}
+.game-card:nth-child(1),
+.game-card:nth-child(2),
+.game-card:nth-child(3) {
+  grid-column: span 1;
+}
+
+
+.game-card:nth-child(4),
+.game-card:nth-child(5) {
+  grid-row: span 5;
+ 
+}
+.enter{
+  width: 1500px;
+  align-items: center;
+  margin-left: 50px;
+  width: auto;
+  margin-top: 0%;
+
+}
+.enter button{
+  background-color: #ffffff;
+  color: #ca9502;
+  font-weight:900;
+
+}
+.enter button:hover{
+  border-color: #157579;
+  transform: translateY(-5px); /* Move card up on hover */
+  box-shadow: 0 2px 4px #157579; /* Add shadow on hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
