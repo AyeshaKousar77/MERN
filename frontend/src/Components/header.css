@@ -1,0 +1,129 @@
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the header appears above other content */
+  background-color: #c79902;
+  height: 70px;
+  margin-top: 0; /* Remove unnecessary margin top */
+  
+}
+
+/* Navigation styles */
+nav {
+  display: flex; /* Make the navigation items flex */
+  align-items: center; /* Align items vertically center */
+  margin-right: 0px; /* Adjust right margin */
+}
+
+/* Logo styles */
+.logo {
+  display: flex; /* Make the logo flex */
+  align-items: center; /* Align items vertically center */
+ 
+
+}
+
+.logo img {
+  height: 40px; /* Set height of the logo */
+}
+
+/* Navigation list styles */
+.nav-list {
+   
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Make the list items flex */
+
+}
+
+.nav-item {
+  margin-top: 20px;
+  margin-right: 3rem; /* Add margin between navigation items */
+  margin-top: 20px;
+
+}
+
+
+
+.nav-link {
+  text-decoration: none; /* Remove underline */
+  color: white; /* White text color */
+ margin-left: 5px;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.user{
+  text-decoration: none; /* Remove underline */
+  color: #c79902;
+ 
+  transition: color 0.3s; /* Smooth color transition */
+
+}
+.user:hover {
+  color: #157579; /* Light gray text color on hover */
+
+}
+.nav-item button{
+  text-decoration: none; 
+  width: auto;
+  margin-left:50px;
+  font-size: large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  margin-top: 0%;
+  padding: 0px;
+  height: 20px;
+  background-color: #c79902;
+
+}
+
+.nav-link:hover {
+  color: #157579; /* Light gray text color on hover */
+}
+.log{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-left:700px;
+  text-decoration: none; /* Remove underline */
+  color: white; /* White text color */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.log:hover{
+  color: #157579; /* Light gray text color on hover */
+
+}
+.dropdown-menu {
+  position: relative;
+  top: 10%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  left: 0;
+  color: #c79902;
+  background-color: #ffffff;
+  list-style: none;
+  padding: 10px;
+  margin-left: 0px;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu .nav-item {
+  margin: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.dropdown-menu .nav-link {
+  position: absolute;
+  display: block;
+  padding: 10px 2px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.dropdown-menu .nav-link:hover {
+  background-color: #157579;
+    color: #c79902;
+  ;
+}

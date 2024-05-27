@@ -1,0 +1,24 @@
+.leagues-container{
+  width: 99.6% ;
+  text-align: center;
+  background: url("../../../public/Assets/league.gif");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 150px;
+  font-size:x-large;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bolder;}
+.leagues-container h2{
+  font-size: 24px;
+  width: 100%;
+  margin-bottom: 100px;
+  align-content: center;
+  background-color: bisque;
+  align-self: center;
+  text-align: center;
+  border: 1px solid #c5b206;
+height: 50px;
+  margin-top: 100px;
+  width: 100%;
+
+}

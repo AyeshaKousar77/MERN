@@ -1,0 +1,36 @@
+
+  
+  /* Footer styles */
+  .footer {
+    background-color:#c79902; /* Set background color */
+    color: white; /* Set text color */
+    padding: 20px; /* Add padding */
+    display: flex; /* Make the footer flex */
+    justify-content: space-between; /* Space evenly between items */
+    margin-top: auto; /* Push the footer to the bottom */
+  }
+  
+  
+  /* Footer link styles */
+  .footer.h2{
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    margin-right: 3rem; 
+    text-align: left;
+
+  }
+  .footer.h4{
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    margin-right: 3rem; 
+  }
+
+  .para{
+    text-decoration: none; 
+    color: white; 
+    margin-right: 3rem; 
+  }
+ 
+  

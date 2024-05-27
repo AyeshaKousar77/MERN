@@ -1,0 +1,43 @@
+.hero-section {
+    margin-top: 10px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;;
+    width: auto;
+  }
+  
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:390px;
+    object-fit: cover;
+    z-index: 0;
+  }
+  /* Body container */
+  .head .body-container {
+    margin: 20px; /* Add some margin */
+    width: auto;
+    height: 400px;
+  }
+  .admin-info{
+    margin-top: 0px;
+   margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+  }
+   .admin-name{
+margin-top: 40px;
+
+  }
+  .nav-item h3{
+    margin-top: 40px;
+   margin-left: 600px;
+  }
+  .topclass .enter{
+    margin-bottom: 300px;
+    margin-left: 400px;
+  }
